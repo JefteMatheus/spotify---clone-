@@ -1,0 +1,83 @@
+/* Reset padrão */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+    height: 100%;
+    background: linear-gradient(to bottom, #1DB954, #14863C); /* Gradiente verde */
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Container principal */
+.content-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    flex-grow: 1; /* Expande o conteúdo para ocupar o espaço da tela */
+}
+
+/* Coluna Esquerda */
+.left-column {
+    padding: 20px;
+    border: 2px solid white; /* Borda branca */
+    border-radius: 8px;
+    max-width: 400px; /* Ajusta largura para parecer tela de celular */
+    margin: 0 auto; /* Centraliza na página */
+}
+
+.images {
+    display: flex;
+    gap: 20px;
+}
+
+.image-item {
+    text-align: center;
+}
+
+.image-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.sections h2 {
+    margin: 10px 0;
+}
+
+/* Coluna Direita */
+.right-column {
+    padding: 20px;
+    max-width: 400px; /* Ajusta largura para parecer tela de celular */
+    margin: 0 auto; /* Centraliza na página */
+}
+
+.right-column h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.right-sections .section {
+    margin-bottom: 20px;
+}
+
+.right-sections h2 {
+    font-size: 1.5rem;
+}
+
+.right-sections p {
+    font-size: 1rem;
+    color: #b3b3b3;
+}
+
+/* Rodapé */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #121212;
+    color: white;
+}

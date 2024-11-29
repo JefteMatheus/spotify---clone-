@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Cadastro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+
+    <main class="auth-container">
+        <div class="auth-form register-form">
+            <h2>Cadastro</h2>
+            <form action="#" method="POST">
+                <label for="register-email">Email</label>
+                <input type="email" id="register-email" name="email" required placeholder="Digite seu email">
+                <label for="register-password">Senha</label>
+                <input type="password" id="register-password" name="password" required placeholder="Digite sua senha">
+                <label for="register-confirm-password">Confirmar Senha</label>
+                <input type="password" id="register-confirm-password" name="confirm-password" required placeholder="Confirme sua senha">
+                <button type="submit" class="btn premium">Cadastrar</button>
+            </form>
+            <p>Já tem uma conta? <a href="../login/login.html">Faça login</a></p>
+        </div>
+    </main>
+</body>
+</html>

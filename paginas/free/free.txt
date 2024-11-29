@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's On Spotify?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   
+
+    <main class="content-container">
+        <!-- Coluna Esquerda -->
+        <div class="left-column">
+            <h1>What's On Spotify?</h1>
+
+            <div class="section">
+                <h2>Music</h2>
+                <p>Descubra novas músicas todos os dias, com playlists personalizadas e recomendações feitas para você.</p>
+            </div>
+
+            <div class="section">
+                <h2>Playlists</h2>
+                <p>Curta playlists exclusivas de vários gêneros, criadas especialmente para você aproveitar o melhor da música.</p>
+            </div>
+
+            <div class="section">
+                <h2>New Releases</h2>
+                <p>Fique por dentro dos lançamentos mais recentes do mundo da música. Novidades a cada semana!</p>
+            </div>
+        </div>
+
+        <!-- Coluna Direita -->
+        <div class="right-column">
+            <div class="image-grid">
+                <img src="imagens/album1.jfif" alt="Imagem 1">
+                <img src="imagens/album2.jfif" alt="Imagem 2">
+                <img src="imagens/album3.jpg" alt="Imagem 3">
+                <img src="imagens/album4.jfif" alt="Imagem 4">
+            </div>
+        </div>
+    </main>
+</body>
+</html>

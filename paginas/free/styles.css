@@ -1,0 +1,99 @@
+/* Reset padrão */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+    background-color: #000; /* Fundo preto */
+    color: white; /* Texto branco para contrastar com o fundo preto */
+}
+
+/* Barra de navegação */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1DB954;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: transform 0.3s ease; /* Animação suave */
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
+
+/* Container principal */
+.content-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Coluna Esquerda */
+.left-column {
+    padding: 20px;
+    color: white;
+    background: #121212;
+    border-radius: 8px;
+}
+
+.left-column h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.section p {
+    font-size: 1rem;
+    color: #b3b3b3;
+}
+
+/* Coluna Direita */
+.right-column {
+    padding: 20px;
+    background: #121212;
+    border-radius: 8px;
+}
+
+/* Grid de Imagens */
+.image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adiciona transição suave */
+}
+
+.image-grid img:hover {
+    transform: scale(1.1); /* Zoom ao passar o mouse */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Sombra ao redor da imagem */
+}
